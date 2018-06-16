@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
+    
     "pages/checkbox/checkbox",
     "pages/movies/movies",
-    "pages/index/index",
     "pages/post/post",
     "pages/index-01/index-01",
     "pages/movies/more-movies/more-movies",
