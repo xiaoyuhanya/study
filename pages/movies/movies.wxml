@@ -1,0 +1,6 @@
+<import src="movie_list/movie_list-tmp.wxml" />
+<view>
+  <template is="movieListTmp" />
+  <template is="movieListTmp" />
+  <template is="movieListTmp" />
+</view>

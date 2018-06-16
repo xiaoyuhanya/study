@@ -1,0 +1,23 @@
+<view class="wrap">
+  <view class='banner-box'>
+    <image src='{{postsData.headImgSrc}}' class='banner'></image>
+    <image src="{{isPlayingMusic?'/images/images/music/music-stop.png': '/images/images/music/music-start.png'}}" class='audio' catchtap='onMusicTap'></image>
+  </view>
+  <view class='post-box'>
+    <image src='{{postsData.post_img}}'></image>
+    <text>{{postsData.author}}</text>
+    <text>发表于</text>
+    <text>{{postsData.dataTime}}</text>
+  </view>
+  <view class='title-box'>
+    <text class='title'>{{postsData.title}}</text>
+  </view>
+    <view class='pic-box'>
+    <image src='/images/images/icon/share.png' catchtap='onShareTap'></image>
+    <image src='/images/images/icon/collection.png' wx:if="{{collected}}" catchtap="onCollectedTap"></image>
+    <image src='/images/images/icon/collection-anti.png' wx:else catchtap="onCollectedTap"></image>
+  </view>
+  <view class='text-box'>
+  <text>{{postsData.detail}}</text>
+  </view>
+</view>

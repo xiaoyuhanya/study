@@ -1,0 +1,74 @@
+.banner-box {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-box .banner {
+  width: 100%;
+}
+.banner-box .audio{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 50%;
+  top: 180rpx;
+  margin-left: -50rpx;
+  opacity: .6;
+
+}
+.post-box {
+  padding: 20rpx;
+  line-height: 2.5;
+}
+
+.post-box image {
+  width: 64rpx;
+  height: 64rpx;
+  float: left;
+  vertical-align: middle;
+  margin-top: 20rpx;
+}
+
+.post-box text {
+  padding-left: 20rpx;
+  font-size: 30rpx;
+  vertical-align: middle;
+}
+
+.title-box {
+ padding:20rpx;
+color:#444;
+border-bottom:1px solid #ccc;
+position:relative;
+line-height:3;
+
+}
+
+.title {
+  font-weight: 700;
+}
+
+.pic-box {
+margin-top:-25px;
+margin-right:20px;
+height:80rpx;
+position:absolute;
+z-index:2;
+right:20rpx;
+
+
+}
+
+.pic-box image {
+  width: 90rpx;
+  height: 90rpx;
+  float: right;
+  margin-left: 20rpx;
+}
+
+.text-box {
+  margin-top: 60rpx;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  line-height: 2;
+}

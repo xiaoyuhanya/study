@@ -1,0 +1,22 @@
+<template name="post_tep">
+  <view class='news-contain'>
+    <view class='list-1'>
+      <image src='{{post_img}}'></image>
+      <text>{{date}}</text>
+    </view>
+    <view>
+      <text class='title'>{{title}}</text>
+      <image src='{{author_img}}'></image>
+    </view>
+    <view class='news-contain'>
+      <text>{{content}}</text>
+    </view>
+    <view class='pinglun-box'>
+      <image src='{{post_img}}'></image>
+      <text>{{view_num}}</text>
+      <image src='{{post_img}}'></image>
+      <text>{{collect_num}}</text>
+    </view>
+
+  </view>
+</template>

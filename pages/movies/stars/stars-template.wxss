@@ -1,0 +1,23 @@
+.stars-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars-box {
+  display: flex;
+  flex-direction: row;
+  height: 17rpx;
+  margin-right: 20rpx;
+ margin-top:5rpx;
+
+
+}
+.stars-box image{
+  display: block;
+  width: 17rpx;
+  height: 17rpx;
+  padding-left: 10rpx;
+}
+.pingfen{
+  font-size:20rpx;
+}

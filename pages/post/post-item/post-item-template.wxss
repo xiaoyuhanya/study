@@ -1,0 +1,51 @@
+
+.news-contain{
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+.list-1{
+  padding:0 20rpx;
+  line-height:1;
+
+}
+.list-1 text{
+  font-size: 24rpx;
+}
+
+.list-1 image{
+  width:30rpx;
+  height: 30rpx;
+  padding-right: 20rpx;
+  vertical-align: middle;
+}
+.news-contain{
+  padding: 0 20rpx;
+ font-size:16px;
+
+}
+.news-contain text{
+line-height:50rpx;
+
+}
+.pinglun-box{
+  padding: 0 20rpx;
+  line-height:3;
+
+}
+.pinglun-box image{
+   width:30rpx;
+  height: 30rpx;
+  padding-right: 20rpx;
+   vertical-align: middle;
+}
+.pinglun-box text{
+  padding-right: 20rpx;
+  font-size: 14px;
+  color:#444;
+ 
+}
+.title{
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  line-height: 2;
+}

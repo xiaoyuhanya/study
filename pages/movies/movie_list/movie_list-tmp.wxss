@@ -1,0 +1,34 @@
+@import "../movie/movie-tmp.wxss";
+
+.list-container{
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+.movies-container{
+    display: flex;
+  flex-direction: row;
+
+}
+.move-box{
+  /* float: right; */
+  
+}
+.move-box .arrow-right{
+  width:9rpx;
+  height: 16rpx;
+  vertical-align:middle;
+
+}
+.top{
+  padding:20rpx;
+  font-size:26rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+.move{
+  margin-right:10rpx;
+  vertical-align:middle;
+
+}

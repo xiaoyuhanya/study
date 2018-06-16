@@ -1,0 +1,8 @@
+<view class="container">
+  <image src='/images/icon_05.png' class='pic'></image>
+  <text class='uesr-name'><text style='color:pink'>hello</text> 邵亚南</text>
+  <view class='user-box' catchtap='onTap'>
+    <text class='star'>开启小程序之旅</text>
+  </view>
+
+</view>

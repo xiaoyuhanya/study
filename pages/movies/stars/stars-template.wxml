@@ -1,0 +1,14 @@
+<template name="starsTemplate">
+  <view class='stars-container'>
+    <view class='stars-box'>
+      <image src='/images/images/icon/star.png'></image>
+      <image src='/images/images/icon/star.png'></image>
+      <image src='/images/images/icon/star.png'></image>
+      <image src='/images/images/icon/star.png'></image>
+      <image src='/images/images/icon/star.png'></image>
+    </view>
+
+    <text class='pingfen'>9.2</text>
+  </view>
+
+</template>

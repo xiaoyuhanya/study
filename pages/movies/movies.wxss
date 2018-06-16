@@ -1,0 +1,7 @@
+/*引入模板样式  */
+
+@import "movie_list/movie_list-tmp.wxss";
+page{
+  background-color: #e5e5e5;
+}
+

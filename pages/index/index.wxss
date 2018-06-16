@@ -1,0 +1,21 @@
+page{
+  background-color:#b3d4db;
+}
+.pic{
+  width: 204rpx;
+  height: 204rpx;
+  margin-top: 100rpx;
+}
+.uesr-name{
+  margin-top: 100rpx;
+}
+.user-box{
+  width: 300rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5rpx;
+  margin-top: 100rpx;
+  font-size: 32rpx;
+}

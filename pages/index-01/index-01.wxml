@@ -1,0 +1,41 @@
+<view class="wrap">
+  <!--轮播图  -->
+
+  <view class='banner-box'>
+    <swiper indicator-dots="true" autoplay='true' circular="true" indicator-active-color="pink">
+      <swiper-item>
+        <image src='/images/banner.png'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/bg_pic.png'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/img_bg.png'></image>
+      </swiper-item>
+    </swiper>
+
+
+  </view>
+
+  <!--新闻列表盒子  -->
+  <view class='newList_box'>
+    <block wx:for="{{post_key}}" wx:for-item="item">
+      <view class='content' catchtap='inTap' data-postId="{{item.postId}}">
+
+        <view class='head'>
+          <image src='{{item.post_img}}' class='head-pic'></image>
+          <text class='name'>{{item.author}}</text>
+          <text class='date'>{{item.date}}</text>
+        </view>
+        <view class='box'>
+          <text class='title'>{{item.title}}</text>
+          <image src='{{item.author_img}}' class='pic'></image>
+        </view>
+      </view>
+
+    </block>
+
+
+  </view>
+
+</view>

@@ -1,0 +1,25 @@
+<import src="../movie/movie-tmp.wxml" />
+<template name="movieListTmp">
+  <view class='list-container'>
+    <view class='inner-container'>
+      <view class='top'>
+        <text class='hot'>正在热映</text>
+        <view class='move-box'>
+          <text class='move' catchtap='onMoreTap'>更多</text>
+          <image src='/images/images/icon/arrow-right.png' class='arrow-right'></image>
+        </view>
+
+      </view>
+      <view class='movies-container'>
+        <template is="movieTemplate" />
+        <template is="movieTemplate" />
+        <template is="movieTemplate" />
+      </view>
+    </view>
+
+
+
+
+  </view>
+
+</template>
